@@ -78,6 +78,7 @@ func main() {
 		ConnectionType:       conf.Client.ConnectionType,
 		SplitUserDomain:      conf.Client.SplitUserDomain,
 		DefaultDomain:		  conf.Client.DefaultDomain,
+		Port:                 conf.Server.Port,
 	}
 	api.NewApi()
 
